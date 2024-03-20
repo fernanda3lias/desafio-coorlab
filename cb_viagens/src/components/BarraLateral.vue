@@ -10,18 +10,16 @@
 </template>
 
 <script>
-
 export default{
     name: 'BarraLateral'
 }
-
 </script>
 
 <style scoped>
 header {
     padding-top: 35px;
     padding-left: 23px;
-    background: #2B2F42;
+    background: hsl(230, 21%, 21%);
     width: 100%;
     height: 100vh;
   }
@@ -51,8 +49,9 @@ header {
 
   @media only screen and (max-width: 1152px) and (min-width: 768px){
     .logo {
-        margin-top: 15px;
+        margin-top: 0px;
         width: 0px;
+        height: 0px;
     }
 }
 
@@ -68,10 +67,11 @@ header {
     width: 254px;
     height: 24px;
   }
-  @media only screen and (max-width: 1250px) and (min-width: 768px){
+  @media only screen and (max-width: 1400px) and (min-width: 768px){
     .title {
-        margin-top: 15px;
+        margin-top: 0px;
         width: 0px;
+        height: 0px;
     }
   }
   @media only screen and (max-width: 768px) {
