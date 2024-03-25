@@ -1,2 +1,0 @@
-# Resultado - Desáfio CoorLab
-
