@@ -114,6 +114,7 @@ export default{
 
 @media only screen and (max-width: 1400px) and (min-width: 768px){
     .no-data {
+      height: 0px;
       margin: auto;
       display: none;
     }

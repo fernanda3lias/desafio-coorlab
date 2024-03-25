@@ -214,8 +214,9 @@ export default {
     min-width: 400px;
     max-height: 490px;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 0px;
     margin-top: 29px;
+    margin-right: 35px;
 }
 
 .box{

@@ -1,19 +1,19 @@
 <template>
     <header>
-        <h1>
+        <div>
             <img class="logo" src="../assets/logo.png" alt="">
             <div class="title">
               <img src="../assets/calculator.png" alt="" style="float: left">
               <p class="calculator">Calculadora de Viagem</p></div>
             <img class="icon" src="../../public/favicon.png" alt="">
-        </h1>
+            </div>
     </header>
 
 </template>
 
 <script>
 export default{
-    name: 'BarraLateral'
+    name: 'SideBar'
 }
 </script>
 
@@ -25,13 +25,13 @@ header {
     width: 100%;
     height: 100vh;
   }
-  @media only screen and (max-width: 1152px) and (min-width: 768px) {
+  @media only screen and (max-width: 1400px) and (min-width: 768px) {
     header {
-      padding: 2.5rem;
-      height: 100vh;
+      height: auto;
       grid-auto-rows: auto;
       display: flex;
       justify-content: center;
+      display: none;
     }
   }
 
@@ -74,6 +74,7 @@ header {
         margin-top: 0px;
         width: 0px;
         height: 0px;
+        display: none;
     }
   }
   @media only screen and (max-width: 768px) {
@@ -104,6 +105,7 @@ header {
   @media only screen and (max-width: 1400px) and (min-width: 768px){
     .calculator {
       margin: auto;
+      width: 0px;
       display: none;
     }
 }
