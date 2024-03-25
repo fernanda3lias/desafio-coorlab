@@ -1,4 +1,4 @@
-# cb_viagens
+# app
 
 ## Project setup
 ```

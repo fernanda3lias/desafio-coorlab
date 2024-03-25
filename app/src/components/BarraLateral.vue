@@ -2,7 +2,9 @@
     <header>
         <h1>
             <img class="logo" src="../assets/logo.png" alt="">
-            <img class="title" src="../assets/side-title.png" alt="">
+            <div class="title">
+              <img src="../assets/calculator.png" alt="" style="float: left">
+              <p class="calculator">Calculadora de Viagem</p></div>
             <img class="icon" src="../../public/favicon.png" alt="">
         </h1>
     </header>
@@ -91,6 +93,20 @@ header {
         height: 72px;
     }
   }
+
+  .calculator {
+    float: right;
+    font-size: 20px;
+    color: white;
+    margin-right: 12px;
+  }
+
+  @media only screen and (max-width: 1400px) and (min-width: 768px){
+    .calculator {
+      margin: auto;
+      display: none;
+    }
+}
     
 
 </style>
